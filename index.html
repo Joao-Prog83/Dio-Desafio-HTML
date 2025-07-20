@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Página Web</title>
+    <style>
+            body {
+                background-color: rgb(228, 231, 230);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+    </style>
+</head>
+<body>
 
+    <h1 id="inicio">PRIMEIROS PASSOS COM HTML</h1>
+    <hr />
+    <h2 style="background:rgb(184, 184, 206);">Índice</h2>
+    <ul style="background-color: rgb(195, 213, 228);">
+        <li><a href="#oque">O que é HTML?</a></li><br>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li><br>
+        <li><a href="#tags">Um pouco sobre tags</a></li><br>
+        <li><a href="#conhecendo">Conhecendo algumas Tags</a></li><br> 
+        <li><a href="#formulario">Formulário no HTML</a></li><br>
+        <li><a href="#midias">Mídias no HTML</a></li><br>
+        <li><a href="#tabelas">Tabelas no HTML</a></li><br>
+        <li><a href="#semantica">Semântica e sua importância</a></li>
+    </ul>
+
+    <h2 style="background:rgb(184, 184, 206);" id="oque">O que é HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small> 
+        <p>É uma linguagem padrão utilizada para criar páginas Web. Em suas primeiras versões, era responsável pela formatação da página, mas com o seu aprimoramento o HTML (HyperText Markup Language) está se tornando cada vez mais um sistema estrutural (responsável pela estrutura da página), deixando essa função de formatação para a linguagem CSS. É fundamental que ao se criar uma página Web, a linguagem HTML precisa ser desenvolvida com uma Semântica adequada, permitindo que os navegadores interpretem e exibam o conteúdo da página corretamente.</p>
+
+    <h2 style="background:rgb(184, 184, 206);" id="estrutura">Estrutura básica do HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+       <p>É uma convenção e sempre indicado que a Primeira Página Web do seu site seja denominada com “index.html”.<br>Para estruturarmos a página usamos as tags:</p>
+       <ul style="background:whitesmoke;"><br>
+            <li style="font-size: smaller;"><strong>< html ></strong> elemento raiz de uma página HTML;</li><br>
+            <li style="font-size: smaller;"><strong>< head ></strong> elemento contém meta informações sobre a página HTML;</li><br> 
+            <li style="font-size: smaller;"><strong>< title ></strong> elemento que especifica um título da página HTML;</li><br>
+            <li style="font-size: smaller;"><strong>< body ></strong> elemento que define o corpo do documento, onde iremos colocar todo o conteúdo visível da página HTML como títulos, parágrafos, imagens, hiperlinks, tabelas, listas etc.</li><br>
+       </ul>
+
+    <h2 style="background:rgb(184, 184, 206);" id="tags">Um pouco sobre tags</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+        <p>Tags <> são elementos de marcação da linguagem, que informa ao navegador como exibir o conteúdo da página. No HTML, as tags <> delimitam e estruturam o conteúdo de modo que o navegador compreenda qual o tipo de elemento indicado na formatação, como um Texto, uma Imagem, um Link, uma Tabela, um Formulário etc.</p>  
+
+    <h2 style="background:rgb(184, 184, 206);" id="conhecendo">Conhecendo algumas Tags</h2>
+    <small><a href="#inicio">(Voltar)</a></small> 
+        <h3>Tags de texto</h3>
+        <ul style="background:whitesmoke;"><br>
+            <li style="font-size: smaller;"><strong>< h1 ></strong> elemento título</li><br> 
+            <li style="font-size: smaller;"><strong>< p ></strong> elemento parágrafo</li><br>
+            <li style="font-size: smaller;"><strong>< br ></strong> elemento de quebra para próxima linha</li><br>
+            <li style="font-size: smaller;"><strong>< blockquote ></strong> elemento citação</li><br>
+        </ul>
+        <h3>Tags de formatação de texto</h3>
+        <ul style="background:whitesmoke;"><br>
+            <li style="font-size: smaller;"><strong>< i ></strong>  elemento <i>itálico</i></li><br>
+            <li style="font-size: smaller;"><strong>< strong ></strong>  elemento <strong>negrito</strong></li><br>
+            <li style="font-size: smaller;"><strong>< u ></strong>  elemento <u>underline</u> (sublinhado)</li><br>
+            <li style="font-size: smaller;"><strong>< mark ></strong>  elemento marca <mark>texto</mark></li><br>
+            <li style="font-size: smaller;"><strong>< sup ></strong>  elemento <sup>superior</sup></li><br>
+            <li style="font-size: smaller;"><strong>< sub ></strong>  elemento <sub>inferior</sub></li><br>
+        </ul>
+        <h3>Tags de listas</h3>
+        <ul style="background:whitesmoke;"><br>
+            <li style="font-size: smaller;"><strong>< ul ></strong> elemento lista não ordenada</li><br>
+            <li style="font-size: smaller;"><strong>< ol ></strong> elemento lista ordenada</li><br>
+            <li style="font-size: smaller;"><strong>< li ></strong> elemento inserção de item em lista ordenada</li><br>
+        </ul>
+        <h3>Tags de link</h3>
+        <ul style="background:whitesmoke;"><br>
+            <li style="font-size: smaller;"><strong>< a href ></strong> elemento link</li><br>
+        </ul><br>
+
+    <h2 style="background:rgb(184, 184, 206);" id="formulario">Formulário no HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+        <p>É um trecho no qual são definidos campos onde o usuário da página vai inserir informações por meio de texto, número, múltipla seleção etc. Esses dados serão processados em um servidor que pode ou não gravar em um banco de dados.</p>  
+        <p style="font-size: smaller;"><a href="https://www.w3schools.com/html/html_forms.asp"><mark style="background-color: antiquewhite;">Saiba mais:</mark></a></p>
+
+    <h2 style="background:rgb(184, 184, 206);" id="midias">Mídias no HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+        <p>Tudo que envolve som, vídeo ou imagem são considerado mídias que fornecem elementos a serem inseridos numa página Web. Tags: </p>
+        <ul style="background:whitesmoke;"><br>
+            <li style="font-size: smaller;"><strong>< img ></strong> elemento arquivo de imagem;</li><br>
+            <li style="font-size: smaller;"><strong>< audio ></strong> elemento usado para inserir um áudio;</li><br> 
+            <li style="font-size: smaller;"><strong>< video ></strong> elemento usado para mostrar um vídeo;</li><br>
+            <li style="font-size: smaller;"><strong>< source ></strong> elemento que permite especificar arquivos de vídeo e áudio alternativos que o navegador pode escolher. O navegador sempre vai utilizar o primeiro formato reconhecido.</li><br>
+        </ul>
+        <p style="font-size: smaller;"><a href="https://www.w3schools.com/html/html_media.asp"><mark style="background-color: antiquewhite;">Saiba mais:</mark></a></p>
+ 
+    <h2 style="background:rgb(184, 184, 206);" id="tabelas">Tabelas no HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+        <p>Tabela é uma forma de apresentar dados de maneira tabular, composta por COLUNAS na vertical e LINHAS na horizontal, esse CRUZAMENTO cria o que chamamos de CÉLULA. No passado, as tabelas eram utilizadas para criar a estrutura de um site, mas este não é mais o caso.</p> 
+        <p style="font-size: smaller;"><a href="https://www.w3schools.com/html/html_tables.asp"><mark style="background-color: antiquewhite;">Saiba mais:</mark></a></p>
+ 
+    <h2 style="background:rgb(184, 184, 206);" id="semantica">Semântica e sua importância</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+        <p>Quando falamos em semântica no HTML, estamos nos referindo principalmente a criação de uma estrutura de página Web de modo que o sentido lógico esteja de acordo com o que está proposto a fazer.  Isso permite que a <strong>NAVEGABILIDADE</strong> na página melhore a interação de pessoas com necessidade ou limitações. O desenvolvedor precisa se preparar para lidar com questões de Acessibilidade.  O uso da semântica também é fundamental para que robôs de busca consigam acessar e facilitar a indexação da página num site de busca, o que vai auxiliar na ampliação da base de acesso da página. </p>
+
+
+</body>
+</html>
