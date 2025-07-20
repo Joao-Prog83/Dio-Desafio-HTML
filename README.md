@@ -31,8 +31,4 @@ Utilizar todas as tags explicadas nas aulas:
 - `<del>`
 - `<abbr>`
 
-## Instruções
 
-1. Crie um arquivo HTML usando todas as tags listadas acima.
-2. Pesquise as tags sugeridas e aplique exemplos no seu código.
-3. Compartilhe seu projeto conforme orientações do desafio.
